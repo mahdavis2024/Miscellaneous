@@ -10,7 +10,7 @@ def ping_github():
     print('I am studying PY & ML.')
     url = 'https://api.github.com/user/repos'
     headers = {
-        'Authorization': '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',
+        'Authorization': 'personal_access_token',
         'Accept': 'application/vnd.github.v3+json'
     }
     
